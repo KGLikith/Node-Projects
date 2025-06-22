@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head') %>
+        <title>Document</title>
+
+    </head>
+  <body>
+    <%- include('./partials/Navbar') %>
+    <div class="container mt-3 d-flex  ">
+      <% if (locals.blogs) { %>
+        <% blogs.forEach(blog => { %>
+          <div class="card mx-3 d-flex flex-column justify-content-between" style="width: 18rem;">
+            <img class="card-img-top" src="<%= blog.coverImage %>" width="100px" height="200px"  alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><%= blog.title %></h5>
+            </div>
+            <a href="/blog/<%= blog._id %>" class="btn btn-primary">view</a>
+          </div>
+        <% }) %>
+      <% } %>
+    </div>
+    
+    <%- include('./partials/script') %>
+  </body>
+</html>
