@@ -4,7 +4,7 @@ This repository showcases a set of backend-focused **Node.js** projects designed
 
 ## Included Projects
 
-### ✍️ Blogging Platform (Basic API)
+### ✍️ Blogging Platform (with basic ui)
 A minimal blog backend allowing users to create, read, update, and delete blog posts.
 - Built with Express.js
 - RESTful API structure
