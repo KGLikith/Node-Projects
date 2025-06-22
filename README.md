@@ -1,8 +1,8 @@
-# 🌐 Node.js Projects Collection
+# Node.js Projects Collection
 
 This repository showcases a set of backend-focused **Node.js** projects designed to demonstrate different use cases of APIs, filesystem utilities, and web service logic.
 
-## 📦 Included Projects
+## Included Projects
 
 ### ✍️ Blogging Platform (Basic API)
 A minimal blog backend allowing users to create, read, update, and delete blog posts.
@@ -22,5 +22,3 @@ A simple tool that organizes files in a given directory into folders based on fi
 A basic functional URL shortening service that generates short links and redirects users.
 - Express.js + MongoDB
 - REST endpoints for shortening and redirecting
-
-t
